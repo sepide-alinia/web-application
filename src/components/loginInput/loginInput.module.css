@@ -1,0 +1,37 @@
+.inputWrapper {
+  width: 427px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 4px 0px 0px 0px;
+  border: solid rgba(190, 190, 190, 1) 1.6px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+margin-bottom: 1rem;
+position: relative;
+z-index: 1;
+}
+.inputWrapper input::placeholder {
+  color: rgba(128, 128, 128, 1);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: right;
+}
+
+.inputWrapper input{
+    border: none;
+  text-align: right;
+margin-right: 1rem;
+width: 359px;
+height: 24px;
+
+}
+.inputWrapper input:focus{
+    outline: none;
+    border: none;
+}
+
+.passwordEye:hover{
+  cursor: pointer;
+}

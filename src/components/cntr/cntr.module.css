@@ -1,0 +1,10 @@
+
+.cntr{
+    display: flex;
+    flex-direction: column;
+    margin-right: 21rem;
+    width: 74vw;
+    height: fit-content;
+    background-color: #EAECF0;
+    text-align: right;
+}

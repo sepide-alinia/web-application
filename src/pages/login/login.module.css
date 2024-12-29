@@ -1,0 +1,17 @@
+
+
+.forgotPassWrapper{
+  text-align: right;
+  margin: .5rem 0 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.forgotPass{
+
+  color: rgba(57, 62, 127, 1);
+  font-size: 16px;
+  font-weight: 31.25rem;
+}
+
+

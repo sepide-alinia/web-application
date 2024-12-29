@@ -1,0 +1,70 @@
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.textarea {
+  margin-top: 2.7rem;
+  border: 1px solid rgba(127, 130, 172, 1);
+  border-radius: 4px;
+}
+
+.textarea p {
+  padding: 1rem;
+  position: relative;
+  color: rgba(35, 70, 109, 1);
+  /* border-bottom: 1px solid black; */
+}
+
+.textarea p::after {
+  content: "";
+  width: 38px;
+  height: 1px;
+  position: absolute;
+  background-color: rgba(170, 170, 170, 1);
+  bottom: 5px;
+  right: 16px;
+}
+
+.textarea textarea {
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+
+.tableHead {
+  display: flex;
+}
+
+.tableHead div {
+  width: 30rem;
+  height: 56px;
+  background-color: rgba(219, 219, 219, 1);
+  color: rgba(9, 11, 42, 1);
+  text-align: center;
+  padding-top: 1rem;
+  border-bottom: 1.4px solid rgba(127, 130, 172, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tableHead div:first-child{
+border-right:1.4px solid rgba(127, 130, 172, 1) ;
+}
+
+.imgWrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1rem 0;
+  color: rgba(57, 62, 127, 1);
+  cursor: pointer;
+}
+
+.imgWrapper div> img{
+  
+  margin-left: 1rem;
+}

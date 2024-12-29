@@ -1,0 +1,59 @@
+.text {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: right;
+  color: rgba(56, 53, 53, 1);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.squareWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 247px;
+  height: 48px;
+  margin: 1rem auto;
+}
+
+.square {
+  width: 49px;
+  height: 48px;
+  border: 1px rgba(99, 99, 99, 1) solid;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.countdownWrapper {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.deActive {
+  color: rgba(190, 190, 190, 1);
+  margin-top: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.deActive:hover{
+  cursor:not-allowed;
+}
+
+.active {
+  color: rgb(206, 33, 33);
+  margin-top: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.active:hover{
+  cursor: pointer;
+}

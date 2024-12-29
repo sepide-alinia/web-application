@@ -1,0 +1,10 @@
+
+.backArrow{
+    position: absolute;
+    top: 48px;
+    left: 32px;
+}
+
+.backArrow:hover{
+    cursor: pointer;
+}

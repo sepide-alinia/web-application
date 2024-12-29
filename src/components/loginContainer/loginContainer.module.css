@@ -1,0 +1,32 @@
+.loginCntr {
+  width: 80vw;
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logoWrapper img {
+  margin-top: 1rem;
+  width: 70px;
+  height: 90px;
+}
+
+
+.loginCntr {
+  position: relative;
+}
+
+.acharWrapper {
+  position: absolute;
+  width: 100%;
+  bottom: -42px;
+}
+
+.acharWrapper img {
+  width: 100%;
+  height: 500px;
+
+}

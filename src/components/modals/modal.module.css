@@ -1,0 +1,133 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(85, 85, 85, 0.36);
+  position: fixed;
+  z-index: 5;
+  right: 0;
+}
+
+.modal > div {
+  width: 34%;
+  height: 264px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  margin-left: 25rem;
+  margin-top: 19rem;
+}
+.modal > div > p {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid rgba(222, 222, 222, 1);
+  padding-right: 2rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+.modal > div > p:nth-child(2) {
+  border-bottom: none;
+}
+.modal > div > p:nth-child(3) {
+  border-bottom: none;
+  color: rgba(128, 128, 128, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+
+.btnWrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnWrapper button{
+    width: 42%;
+    border-radius: 4px;
+    padding: .7rem 0;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+  }
+
+  
+  
+  .btnWrapper button:first-child{
+    color: rgba(128, 128, 128, 1);
+    border: none;
+  }
+  
+  .btnWrapper button:nth-child(2){
+color: red;
+border: 1.6px solid red;
+}
+
+.btnWrapper button:hover{
+  background-color: rgba(228, 226, 226, 0.677);
+  border: 1px solid rgba(192, 210, 226, 0.677);
+}
+
+
+/* ------------------------------------------------------------- */
+
+.modal > div > div> p {
+  height: fit-content;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  margin: 1rem 0; 
+}
+
+.modal > div > div> p:first-child{
+transform: scale(1.5);
+cursor: pointer;
+}
+
+.title{
+  display: flex;
+  border-bottom: 1px solid rgba(222, 222, 222, 1);
+  justify-content: space-between;
+}
+
+.inputWrapper{
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  border: 1px solid rgba(128, 128, 128, 1);
+  padding: .7rem;
+  border-radius: 4px;
+}
+.inputWrapper input{
+  text-align: right;
+  color: rgba(128, 128, 128, 1);
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.inputWrapper img {
+  margin-left: .5rem;
+}
+
+.modal > div> button {
+  margin: 1.4rem 1.7rem 0;
+  width: 90%;
+  padding: .5rem .7rem;
+background-color: rgba(57, 62, 127, 1);
+color: #FFF;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 4px;
+
+}
+
+.modal > div> button:hover{
+  opacity: .9;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  text-align: right;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-family: IRANSans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 47.48px;
+  color: rgba(99, 99, 99, 1);
+  ;
+}
+
+.wrapper::after {
+  content: "";
+  width: 12px;
+  height: 21px;
+  background-color: rgba(57, 62, 127, 1);
+  position: absolute;
+  top: 60px;
+  right:325px;
+  border-radius: 3px 0 0 3px;
+  margin-left: 0.5rem;
+}
+
+

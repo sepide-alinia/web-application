@@ -1,0 +1,47 @@
+@import url("http://cdn.font-store.ir/behdad.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "behdad", sans-serif;
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #eaecf0;
+  display: flex;
+  justify-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+textarea {
+  resize: none;
+}
+
+.formWrapper {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  position: relative;
+  padding-right: 3rem;
+  height: fit-content;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+
+}
+
+.space {
+  width: 29rem;
+  height: 3.37rem;
+}
+
+.form  {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: right;
+}
